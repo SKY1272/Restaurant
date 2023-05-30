@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calender</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="calendar">
+        <div class="header">
+          <select id="month">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+          </select>
+          <select id="year"></select>
+        </div>
+        <div class="body">
+          <div class="weekdays">
+            <div class="day">SUN</div>
+            <div class="day">MON</div>
+            <div class="day">TUE</div>
+            <div class="day">WED</div>
+            <div class="day">THU</div>
+            <div class="day">FRI</div>
+            <div class="day">SAT</div>
+          </div>
+          <div class="dates"></div>
+          <div class="date-input">
+            <input type="text" id="enter-date" placeholder="Enter Any Date">
+            <button id="submit">Submit</button>
+          </div>
+        </div>
+      </div>      
+    <script src="index.js"></script>
+  </body>
+</html>
