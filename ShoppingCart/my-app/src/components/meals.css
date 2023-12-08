@@ -1,0 +1,79 @@
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  
+  background-color: #f3f3f3;
+  background-color:#a87932;
+}
+
+.meal-item {
+  width: 300px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.meal-item:hover {
+  transform: translateY(-5px);
+}
+
+.meal-info {
+  padding: 20px;
+}
+
+.meal-name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.meal-price {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+.meal-actions {
+  display: flex;
+  align-items: center;
+  
+}
+
+.quantity-form {
+  display: flex;
+  align-items: center;
+  
+}
+
+.quantity-btn {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+
+}
+
+.quantity-input {
+  width: 50px;
+  padding: 5px;
+ 
+}
+
+.add-to-cart {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  
+}
